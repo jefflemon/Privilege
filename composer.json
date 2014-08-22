@@ -1,0 +1,22 @@
+{
+    "name": "jefflemon/privilege",
+    "description": "Role based authentication for Laravel 4.",
+    "authors": [
+        {
+            "name": "Jeff Lemon"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "JeffLemon\\Privilege\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
